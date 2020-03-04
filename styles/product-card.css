@@ -36,7 +36,7 @@
   .product-card__purchase-button {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    width: 170px;
+    width: 100%;
     height: 40px;
     text-decoration: none;
     margin-top: 20px;
@@ -76,7 +76,20 @@
   height: 15px;
   background: url("../images/star.svg") no-repeat;
   margin-right: 4px; }
-  .rating-section__star-item--active-star:nth-child(-n+4) {
-    background: url("../images/star-active.svg") no-repeat; }
 
-/*# sourceMappingURL=card.css.map */
+.rating-section--1 .rating-section__star-item:nth-child(-n+1) {
+  background: url("../images/star-active.svg") no-repeat; }
+
+.rating-section--2 .rating-section__star-item:nth-child(-n+2) {
+  background: url("../images/star-active.svg") no-repeat; }
+
+.rating-section--3 .rating-section__star-item:nth-child(-n+3) {
+  background: url("../images/star-active.svg") no-repeat; }
+
+.rating-section--4 .rating-section__star-item:nth-child(-n+4) {
+  background: url("../images/star-active.svg") no-repeat; }
+
+.rating-section--5 .rating-section__star-item:nth-child(-n+5) {
+  background: url("../images/star-active.svg") no-repeat; }
+
+/*# sourceMappingURL=product-card.css.map */

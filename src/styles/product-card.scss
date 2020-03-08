@@ -11,10 +11,12 @@
   padding: 30px 15px 15px;
   margin-bottom: 50px;
   &__image {
+    align-self: center;
+    box-sizing: border-box;
+    padding: 5px;
     width: $card-image-width;
     height: $card-image-eight;
-    margin: auto;
-    border: 3px solid #f3f3f3;
+    border: 3px solid transparent;
     transition: transform 1s;
     &:hover {
       transform: scale(1.2,1.2);

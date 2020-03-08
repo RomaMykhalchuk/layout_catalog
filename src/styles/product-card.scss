@@ -8,14 +8,14 @@
   box-sizing: border-box;
   @include borders(#F3F3F3);
   border-radius: 5px;
-  padding: 30px 15px 15px;
+  padding: 12px 14px 15px;
   margin-bottom: 50px;
   &__image {
     align-self: center;
     box-sizing: border-box;
-    padding: 5px;
+    padding: 10px 5px;
     width: $card-image-width;
-    height: $card-image-eight;
+    height: $card-image-height;
     border: 3px solid transparent;
     transition: transform 1s;
     &:hover {

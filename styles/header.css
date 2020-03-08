@@ -36,7 +36,9 @@
   text-decoration: none;
   font-size: 12px;
   padding: 22.5px 0;
-  color: #000; }
+  color: #000;
+  -webkit-transition: color 1s;
+  transition: color 1s; }
   .nav__link--is-active {
     position: relative;
     color: #00acdc; }

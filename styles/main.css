@@ -37,8 +37,8 @@
   font-size: 12px;
   padding: 22.5px 0;
   color: #000;
-  -webkit-transition: color 1s;
-  transition: color 1s; }
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s; }
   .nav__link--is-active {
     position: relative;
     color: #00acdc; }
@@ -119,8 +119,8 @@
     text-transform: uppercase;
     border: 1px solid #00acdc;
     border-radius: 5px;
-    -webkit-transition: all 1s;
-    transition: all 1s; }
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
     .product-card__purchase-button:hover {
       background-color: white;
       border: 1px solid #00acdc;

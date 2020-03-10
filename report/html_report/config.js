@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Entire_document_1024px.png",
-        "test": "..\\bitmaps_test\\20200305-004654\\Entire_document_1024px.png",
+        "test": "..\\bitmaps_test\\20200310-104946\\Entire_document_1024px.png",
         "selector": "document",
         "fileName": "Entire_document_1024px.png",
         "label": "Entire document",
@@ -14,23 +14,24 @@ report({
         "referenceUrl": "https://mate-academy.github.io/layout_solutions/catalog/",
         "expect": 0,
         "viewportLabel": "1024px",
+        "engineErrorMsg": "net::ERR_CONNECTION_REFUSED at http://localhost:8080/index.html",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": 0,
-            "height": -24
+            "width": -792,
+            "height": -836
           },
-          "misMatchPercentage": "21.25",
-          "analysisTime": 168
+          "misMatchPercentage": "4.00",
+          "analysisTime": 54
         },
-        "diffImage": "..\\bitmaps_test\\20200305-004654\\failed_diff_Entire_document_1024px.png"
+        "diffImage": "..\\bitmaps_test\\20200310-104946\\failed_diff_Entire_document_1024px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Entire_document_1200px.png",
-        "test": "..\\bitmaps_test\\20200305-004654\\Entire_document_1200px.png",
+        "test": "..\\bitmaps_test\\20200310-104946\\Entire_document_1200px.png",
         "selector": "document",
         "fileName": "Entire_document_1200px.png",
         "label": "Entire document",
@@ -40,23 +41,24 @@ report({
         "referenceUrl": "https://mate-academy.github.io/layout_solutions/catalog/",
         "expect": 0,
         "viewportLabel": "1200px",
+        "engineErrorMsg": "net::ERR_CONNECTION_REFUSED at http://localhost:8080/index.html",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": 0,
-            "height": -24
+            "width": -968,
+            "height": -836
           },
-          "misMatchPercentage": "13.45",
-          "analysisTime": 202
+          "misMatchPercentage": "3.41",
+          "analysisTime": 60
         },
-        "diffImage": "..\\bitmaps_test\\20200305-004654\\failed_diff_Entire_document_1200px.png"
+        "diffImage": "..\\bitmaps_test\\20200310-104946\\failed_diff_Entire_document_1200px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Header_tag_1024px.png",
-        "test": "..\\bitmaps_test\\20200305-004654\\Header_tag_1024px.png",
+        "test": "..\\bitmaps_test\\20200310-104946\\Header_tag_1024px.png",
         "selector": "header",
         "fileName": "Header_tag_1024px.png",
         "label": "Header tag",
@@ -66,23 +68,24 @@ report({
         "referenceUrl": "https://mate-academy.github.io/layout_solutions/catalog/",
         "expect": 0,
         "viewportLabel": "1024px",
+        "engineErrorMsg": "net::ERR_CONNECTION_REFUSED at http://localhost:8080/index.html",
         "diff": {
-          "isSameDimensions": true,
+          "isSameDimensions": false,
           "dimensionDifference": {
-            "width": 0,
-            "height": 0
+            "width": -792,
+            "height": 120
           },
-          "misMatchPercentage": "4.69",
-          "analysisTime": 55
+          "misMatchPercentage": "22.56",
+          "analysisTime": 52
         },
-        "diffImage": "..\\bitmaps_test\\20200305-004654\\failed_diff_Header_tag_1024px.png"
+        "diffImage": "..\\bitmaps_test\\20200310-104946\\failed_diff_Header_tag_1024px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Header_tag_1200px.png",
-        "test": "..\\bitmaps_test\\20200305-004654\\Header_tag_1200px.png",
+        "test": "..\\bitmaps_test\\20200310-104946\\Header_tag_1200px.png",
         "selector": "header",
         "fileName": "Header_tag_1200px.png",
         "label": "Header tag",
@@ -92,23 +95,24 @@ report({
         "referenceUrl": "https://mate-academy.github.io/layout_solutions/catalog/",
         "expect": 0,
         "viewportLabel": "1200px",
+        "engineErrorMsg": "net::ERR_CONNECTION_REFUSED at http://localhost:8080/index.html",
         "diff": {
-          "isSameDimensions": true,
+          "isSameDimensions": false,
           "dimensionDifference": {
-            "width": 0,
-            "height": 0
+            "width": -968,
+            "height": 120
           },
-          "misMatchPercentage": "4.01",
-          "analysisTime": 81
+          "misMatchPercentage": "19.26",
+          "analysisTime": 61
         },
-        "diffImage": "..\\bitmaps_test\\20200305-004654\\failed_diff_Header_tag_1200px.png"
+        "diffImage": "..\\bitmaps_test\\20200310-104946\\failed_diff_Header_tag_1200px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Nav_tag_1024px.png",
-        "test": "..\\bitmaps_test\\20200305-004654\\Nav_tag_1024px.png",
+        "test": "..\\bitmaps_test\\20200310-104946\\Nav_tag_1024px.png",
         "selector": "nav",
         "fileName": "Nav_tag_1024px.png",
         "label": "Nav tag",
@@ -118,23 +122,24 @@ report({
         "referenceUrl": "https://mate-academy.github.io/layout_solutions/catalog/",
         "expect": 0,
         "viewportLabel": "1024px",
+        "engineErrorMsg": "net::ERR_CONNECTION_REFUSED at http://localhost:8080/index.html",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": 0,
-            "height": -38
+            "width": -525,
+            "height": 120
           },
-          "misMatchPercentage": "7.51",
-          "analysisTime": 81
+          "misMatchPercentage": "30.55",
+          "analysisTime": 62
         },
-        "diffImage": "..\\bitmaps_test\\20200305-004654\\failed_diff_Nav_tag_1024px.png"
+        "diffImage": "..\\bitmaps_test\\20200310-104946\\failed_diff_Nav_tag_1024px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Nav_tag_1200px.png",
-        "test": "..\\bitmaps_test\\20200305-004654\\Nav_tag_1200px.png",
+        "test": "..\\bitmaps_test\\20200310-104946\\Nav_tag_1200px.png",
         "selector": "nav",
         "fileName": "Nav_tag_1200px.png",
         "label": "Nav tag",
@@ -144,23 +149,24 @@ report({
         "referenceUrl": "https://mate-academy.github.io/layout_solutions/catalog/",
         "expect": 0,
         "viewportLabel": "1200px",
+        "engineErrorMsg": "net::ERR_CONNECTION_REFUSED at http://localhost:8080/index.html",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": 0,
-            "height": -38
+            "width": 525,
+            "height": -120
           },
-          "misMatchPercentage": "7.51",
-          "analysisTime": 51
+          "misMatchPercentage": "30.55",
+          "analysisTime": 42
         },
-        "diffImage": "..\\bitmaps_test\\20200305-004654\\failed_diff_Nav_tag_1200px.png"
+        "diffImage": "..\\bitmaps_test\\20200310-104946\\failed_diff_Nav_tag_1200px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Link_with_data-qa_hover_1024px.png",
-        "test": "..\\bitmaps_test\\20200305-004654\\Link_with_data-qa_hover_1024px.png",
+        "test": "..\\bitmaps_test\\20200310-104946\\Link_with_data-qa_hover_1024px.png",
         "selector": "[data-qa=\"nav-hover\"]",
         "fileName": "Link_with_data-qa_hover_1024px.png",
         "label": "Link with data-qa_hover",
@@ -170,22 +176,24 @@ report({
         "referenceUrl": "https://mate-academy.github.io/layout_solutions/catalog/",
         "expect": 0,
         "viewportLabel": "1024px",
+        "engineErrorMsg": "net::ERR_CONNECTION_REFUSED at http://localhost:8080/index.html",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": 0,
-            "height": 1
+            "width": -69,
+            "height": -120
           },
-          "misMatchPercentage": "0.00",
-          "analysisTime": 29
-        }
+          "misMatchPercentage": "23.36",
+          "analysisTime": 28
+        },
+        "diffImage": "..\\bitmaps_test\\20200310-104946\\failed_diff_Link_with_data-qa_hover_1024px.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Link_with_data-qa_hover_1200px.png",
-        "test": "..\\bitmaps_test\\20200305-004654\\Link_with_data-qa_hover_1200px.png",
+        "test": "..\\bitmaps_test\\20200310-104946\\Link_with_data-qa_hover_1200px.png",
         "selector": "[data-qa=\"nav-hover\"]",
         "fileName": "Link_with_data-qa_hover_1200px.png",
         "label": "Link with data-qa_hover",
@@ -195,22 +203,24 @@ report({
         "referenceUrl": "https://mate-academy.github.io/layout_solutions/catalog/",
         "expect": 0,
         "viewportLabel": "1200px",
+        "engineErrorMsg": "net::ERR_CONNECTION_REFUSED at http://localhost:8080/index.html",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": 0,
-            "height": 1
+            "width": -69,
+            "height": -120
           },
-          "misMatchPercentage": "0.00",
-          "analysisTime": 24
-        }
+          "misMatchPercentage": "23.36",
+          "analysisTime": 26
+        },
+        "diffImage": "..\\bitmaps_test\\20200310-104946\\failed_diff_Link_with_data-qa_hover_1200px.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Link_with_class_is-active_1024px.png",
-        "test": "..\\bitmaps_test\\20200305-004654\\Link_with_class_is-active_1024px.png",
+        "test": "..\\bitmaps_test\\20200310-104946\\Link_with_class_is-active_1024px.png",
         "selector": "a.is-active",
         "fileName": "Link_with_class_is-active_1024px.png",
         "label": "Link with class_is-active",
@@ -220,23 +230,24 @@ report({
         "referenceUrl": "https://mate-academy.github.io/layout_solutions/catalog/",
         "expect": 0,
         "viewportLabel": "1024px",
+        "engineErrorMsg": "net::ERR_CONNECTION_REFUSED at http://localhost:8080/index.html",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": -305,
-            "height": -206
+            "width": -196,
+            "height": -120
           },
-          "misMatchPercentage": "2.38",
-          "analysisTime": 25
+          "misMatchPercentage": "5.17",
+          "analysisTime": 27
         },
-        "diffImage": "..\\bitmaps_test\\20200305-004654\\failed_diff_Link_with_class_is-active_1024px.png"
+        "diffImage": "..\\bitmaps_test\\20200310-104946\\failed_diff_Link_with_class_is-active_1024px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Link_with_class_is-active_1200px.png",
-        "test": "..\\bitmaps_test\\20200305-004654\\Link_with_class_is-active_1200px.png",
+        "test": "..\\bitmaps_test\\20200310-104946\\Link_with_class_is-active_1200px.png",
         "selector": "a.is-active",
         "fileName": "Link_with_class_is-active_1200px.png",
         "label": "Link with class_is-active",
@@ -246,23 +257,24 @@ report({
         "referenceUrl": "https://mate-academy.github.io/layout_solutions/catalog/",
         "expect": 0,
         "viewportLabel": "1200px",
+        "engineErrorMsg": "net::ERR_CONNECTION_REFUSED at http://localhost:8080/index.html",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": -305,
-            "height": -206
+            "width": -196,
+            "height": -120
           },
-          "misMatchPercentage": "2.38",
-          "analysisTime": 34
+          "misMatchPercentage": "5.17",
+          "analysisTime": 17
         },
-        "diffImage": "..\\bitmaps_test\\20200305-004654\\failed_diff_Link_with_class_is-active_1200px.png"
+        "diffImage": "..\\bitmaps_test\\20200310-104946\\failed_diff_Link_with_class_is-active_1200px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Main_tag_1024px.png",
-        "test": "..\\bitmaps_test\\20200305-004654\\Main_tag_1024px.png",
+        "test": "..\\bitmaps_test\\20200310-104946\\Main_tag_1024px.png",
         "selector": "main",
         "fileName": "Main_tag_1024px.png",
         "label": "Main tag",
@@ -272,23 +284,24 @@ report({
         "referenceUrl": "https://mate-academy.github.io/layout_solutions/catalog/",
         "expect": 0,
         "viewportLabel": "1024px",
+        "engineErrorMsg": "net::ERR_CONNECTION_REFUSED at http://localhost:8080/index.html",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": -100,
-            "height": 74
+            "width": -792,
+            "height": -726
           },
-          "misMatchPercentage": "32.09",
-          "analysisTime": 182
+          "misMatchPercentage": "4.49",
+          "analysisTime": 43
         },
-        "diffImage": "..\\bitmaps_test\\20200305-004654\\failed_diff_Main_tag_1024px.png"
+        "diffImage": "..\\bitmaps_test\\20200310-104946\\failed_diff_Main_tag_1024px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Main_tag_1200px.png",
-        "test": "..\\bitmaps_test\\20200305-004654\\Main_tag_1200px.png",
+        "test": "..\\bitmaps_test\\20200310-104946\\Main_tag_1200px.png",
         "selector": "main",
         "fileName": "Main_tag_1200px.png",
         "label": "Main tag",
@@ -298,23 +311,24 @@ report({
         "referenceUrl": "https://mate-academy.github.io/layout_solutions/catalog/",
         "expect": 0,
         "viewportLabel": "1200px",
+        "engineErrorMsg": "net::ERR_CONNECTION_REFUSED at http://localhost:8080/index.html",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": -256,
-            "height": 74
+            "width": -968,
+            "height": -726
           },
-          "misMatchPercentage": "29.71",
-          "analysisTime": 197
+          "misMatchPercentage": "3.83",
+          "analysisTime": 61
         },
-        "diffImage": "..\\bitmaps_test\\20200305-004654\\failed_diff_Main_tag_1200px.png"
+        "diffImage": "..\\bitmaps_test\\20200310-104946\\failed_diff_Main_tag_1200px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Card_with_data-qa_card_1024px.png",
-        "test": "..\\bitmaps_test\\20200305-004654\\Card_with_data-qa_card_1024px.png",
+        "test": "..\\bitmaps_test\\20200310-104946\\Card_with_data-qa_card_1024px.png",
         "selector": "[data-qa=\"card\"]",
         "fileName": "Card_with_data-qa_card_1024px.png",
         "label": "Card with data-qa_card",
@@ -324,23 +338,24 @@ report({
         "referenceUrl": "https://mate-academy.github.io/layout_solutions/catalog/",
         "expect": 0,
         "viewportLabel": "1024px",
+        "engineErrorMsg": "net::ERR_CONNECTION_REFUSED at http://localhost:8080/index.html",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": 0,
-            "height": 12
+            "width": 32,
+            "height": -223
           },
-          "misMatchPercentage": "33.42",
-          "analysisTime": 77
+          "misMatchPercentage": "44.51",
+          "analysisTime": 44
         },
-        "diffImage": "..\\bitmaps_test\\20200305-004654\\failed_diff_Card_with_data-qa_card_1024px.png"
+        "diffImage": "..\\bitmaps_test\\20200310-104946\\failed_diff_Card_with_data-qa_card_1024px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Card_with_data-qa_card_1200px.png",
-        "test": "..\\bitmaps_test\\20200305-004654\\Card_with_data-qa_card_1200px.png",
+        "test": "..\\bitmaps_test\\20200310-104946\\Card_with_data-qa_card_1200px.png",
         "selector": "[data-qa=\"card\"]",
         "fileName": "Card_with_data-qa_card_1200px.png",
         "label": "Card with data-qa_card",
@@ -350,23 +365,24 @@ report({
         "referenceUrl": "https://mate-academy.github.io/layout_solutions/catalog/",
         "expect": 0,
         "viewportLabel": "1200px",
+        "engineErrorMsg": "net::ERR_CONNECTION_REFUSED at http://localhost:8080/index.html",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": 0,
-            "height": -12
+            "width": 32,
+            "height": -223
           },
-          "misMatchPercentage": "12.27",
-          "analysisTime": 62
+          "misMatchPercentage": "44.51",
+          "analysisTime": 39
         },
-        "diffImage": "..\\bitmaps_test\\20200305-004654\\failed_diff_Card_with_data-qa_card_1200px.png"
+        "diffImage": "..\\bitmaps_test\\20200310-104946\\failed_diff_Card_with_data-qa_card_1200px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Card_with_data-qa_card-hover_1024px.png",
-        "test": "..\\bitmaps_test\\20200305-004654\\Card_with_data-qa_card-hover_1024px.png",
+        "test": "..\\bitmaps_test\\20200310-104946\\Card_with_data-qa_card-hover_1024px.png",
         "selector": "[data-qa=\"card\"]",
         "fileName": "Card_with_data-qa_card-hover_1024px.png",
         "label": "Card with data-qa_card-hover",
@@ -376,23 +392,24 @@ report({
         "referenceUrl": "https://mate-academy.github.io/layout_solutions/catalog/",
         "expect": 0,
         "viewportLabel": "1024px",
+        "engineErrorMsg": "net::ERR_CONNECTION_REFUSED at http://localhost:8080/index.html",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": 0,
-            "height": -12
+            "width": 32,
+            "height": -223
           },
-          "misMatchPercentage": "14.09",
-          "analysisTime": 33
+          "misMatchPercentage": "44.51",
+          "analysisTime": 47
         },
-        "diffImage": "..\\bitmaps_test\\20200305-004654\\failed_diff_Card_with_data-qa_card-hover_1024px.png"
+        "diffImage": "..\\bitmaps_test\\20200310-104946\\failed_diff_Card_with_data-qa_card-hover_1024px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Card_with_data-qa_card-hover_1200px.png",
-        "test": "..\\bitmaps_test\\20200305-004654\\Card_with_data-qa_card-hover_1200px.png",
+        "test": "..\\bitmaps_test\\20200310-104946\\Card_with_data-qa_card-hover_1200px.png",
         "selector": "[data-qa=\"card\"]",
         "fileName": "Card_with_data-qa_card-hover_1200px.png",
         "label": "Card with data-qa_card-hover",
@@ -402,16 +419,17 @@ report({
         "referenceUrl": "https://mate-academy.github.io/layout_solutions/catalog/",
         "expect": 0,
         "viewportLabel": "1200px",
+        "engineErrorMsg": "net::ERR_CONNECTION_REFUSED at http://localhost:8080/index.html",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": 0,
-            "height": -12
+            "width": 32,
+            "height": -223
           },
-          "misMatchPercentage": "14.09",
-          "analysisTime": 53
+          "misMatchPercentage": "44.51",
+          "analysisTime": 37
         },
-        "diffImage": "..\\bitmaps_test\\20200305-004654\\failed_diff_Card_with_data-qa_card-hover_1200px.png"
+        "diffImage": "..\\bitmaps_test\\20200310-104946\\failed_diff_Card_with_data-qa_card-hover_1200px.png"
       },
       "status": "fail"
     }
